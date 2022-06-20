@@ -27,6 +27,18 @@ public class LinkedList implements linkedlist {
         newNode.next = head;
         head = newNode;
     }
+    public void append(int data) {
+        Node newNode = new Node(data);
+        if (head == null) {
+            head = newNode;
+            return;
+        }
+        Node temp = head;
+        while (temp.next != null) {
+            temp = temp.next;
+        }
+        temp.next = newNode;
+    }
     @Override
     public String toString() {
         return "LinkedList{" +
