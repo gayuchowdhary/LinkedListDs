@@ -5,8 +5,8 @@ public class List{
         System.out.println(".....Welcome to linked list.....");
         LinkedList list = new LinkedList();
         list.add(56);
-        list.append(30);
-        list.append(70);
+        list.add(70);
+        list.insert(70,30);
 
         System.out.println(list.toString());
     }

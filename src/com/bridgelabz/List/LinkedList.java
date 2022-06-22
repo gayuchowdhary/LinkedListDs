@@ -39,6 +39,23 @@ public class LinkedList implements linkedlist {
         }
         temp.next = newNode;
     }
+    public void insert(int pos,int data) {
+        Node newNode = new Node(data);
+        if(pos == head.data){
+            newNode.next = head;
+            head = newNode;
+            return;
+        }
+        Node requiredNode = head.next;
+        Node previousNode = head;
+        while(pos != requiredNode.data){
+            previousNode = requiredNode;
+            requiredNode = requiredNode.next;
+        }
+        newNode.next = requiredNode;
+        previousNode.next = newNode;
+    }
+
     @Override
     public String toString() {
         return "LinkedList{" +
