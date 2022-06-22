@@ -70,7 +70,20 @@ public class LinkedList implements linkedlist {
         previousNode.next = null;
         return (int) lastNode.data;
     }
-
+    public boolean search(int data) {
+        if (head.data == data ){
+            return true;
+        }
+        Node foundNode = head.next;
+        while (foundNode != null) {
+            if (foundNode.data == data) {
+                System.out.println("search data is present");
+                return true;
+            }
+            foundNode = foundNode.next;
+        }
+        return false;
+    }
     @Override
     public String toString() {
         return "LinkedList{" +
