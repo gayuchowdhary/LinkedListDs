@@ -7,7 +7,7 @@ public class List{
         list.add(56);
         list.add(70);
         list.insert(70,30);
-        list.pop(56);
+        list.popLast(70);
 
         System.out.println(list.toString());
     }

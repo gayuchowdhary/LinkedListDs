@@ -60,6 +60,16 @@ public class LinkedList implements linkedlist {
         head = temp.next;
         return (int) temp.data;
     }
+    public int popLast(int data) {
+        Node lastNode = head;
+        Node previousNode = null;
+        while (lastNode.next != null) {
+            previousNode = lastNode;
+            lastNode = lastNode.next;
+        }
+        previousNode.next = null;
+        return (int) lastNode.data;
+    }
 
     @Override
     public String toString() {
