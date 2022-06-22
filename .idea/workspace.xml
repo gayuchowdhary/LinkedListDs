@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="65e814b3-5f9e-4592-8a4e-99bbaaccf496" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/List/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/List/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/List/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/List/List.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
